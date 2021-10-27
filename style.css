@@ -1,0 +1,162 @@
+h1 {
+  line-height: 2;
+  color: #69140E;
+  font-family: 'Merienda', cursive;
+  font-size: 50px;
+}
+
+h2 {
+  line-height: 2;
+  color: #69140E;
+  font-family: 'Merienda', cursive;
+  font-size: 25px;
+}
+
+body {
+  font-family: 'Oxygen', sans-serif;
+}
+
+.text-centered {
+  text-align: center;
+}
+
+body {
+  background-color: #A0B2A6;
+}
+
+.btn-blue{
+  text-decoration: none;
+  background-color: #0B4F6C;
+  color: white;
+  padding: 10px 25px;
+  border-radius: 10px;
+}
+
+.btn-blue:hover {
+  color: #69140E;
+  background-color: #040F16;
+  box-shadow: 10px 5px 5px ;
+}
+
+.img-roundshadowed {
+  box-shadow: 4px 4px 6px rgb(203 191 187 / 50%);
+  width: 500px;
+  height: 500px;
+  border-radius: 100%;
+  margin: 0 auto;
+}
+
+@media (max-width: 540px){
+  .container {
+    width: 200px;
+    height: 200px;
+  }
+}
+
+.box-centered{
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+  border-radius: 10px;
+  margin: 20px;
+}
+
+.subtitle{
+  padding: 2px;
+  margin: 0 auto;
+}
+
+.div-grayback{
+  background-color: rgba(203, 191, 187,0.7);
+}
+
+ul {
+  list-style: none;
+}
+
+.list-inline {
+    list-style: none;
+    padding-left: 0px;
+}
+
+.list-inline li {
+  display: inline;
+  margin: 10px;
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 50%;
+  padding: 5px;
+}
+
+.image-fullheight {
+  height:100%;
+}
+
+.overlay {
+  position: relative;
+  opacity: 0;
+  transition: .5s ease;
+}
+
+.column:hover .overlay {
+  opacity: 1;
+}
+
+.column:hover {
+  opacity: 0.8;
+}
+
+.image-doubleborder {
+    border-radius: 30px;
+    outline-style: double;
+    outline-color: #0B4F6C;
+}
+
+.centered-subtitle {
+  position: absolute;
+}
+
+
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .img-roundshadowed {
+    width: 400px;
+    height: 400px;
+  }
+  .text-subtitle {
+    font-size: 12px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .img-roundshadowed {
+    width: 300px;
+    height: 300px;
+  }
+  .text-subtitle {
+    font-size: 5px;
+  }
+  .footer {
+    margin-top: 5px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .img-roundshadowed {
+    width: 250px;
+    height: 250px;;
+  }
+  .text-subtitle {
+    font-size: 2px;
+  }
+  .footer {
+    margin-top: 5px;
+  }
+}
